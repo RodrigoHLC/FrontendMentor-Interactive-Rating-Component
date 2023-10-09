@@ -1,0 +1,153 @@
+* {box-sizing:border-box;
+}
+:root {
+    font-family: "Overpass", sans-serif;
+}
+html {height:100vh;
+    max-width:1440px;
+overflow-x:hidden;
+padding:0;
+background-color:hsl(216, 12%, 8%);
+}
+body {
+    height:100%;
+    width:100%;
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#card > *{
+    /* border:1px solid purple; */
+    margin:0 0;
+    padding:0 0;
+}
+
+#card {
+    width:420px;
+    height:440.88px;
+    border-radius:2em;
+    background-color:hsl(213, 19%, 18%);
+    padding:1.5em;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    gap:2em;
+}
+#star {
+    width:57px;
+    padding:01em;
+    border-radius:50%;
+    background-color:hsl(213, 19%, 22%);
+}
+h1{
+    color:hsl(0, 0%, 100%)
+}
+#TY-header{
+  align-self:center;
+}
+p {
+    font: size 15px;
+    line-height:1.5em;
+    color:hsl(217, 12%, 63%);
+  
+}
+
+#TY-paragraph {
+  text-align:centeR;
+  margin:0 0.2em;
+}
+
+#ratings {
+    display:flex;
+    justify-content:space-between;
+    background-color:;
+}
+
+.grade{
+    /* display:inline-block; */
+    aspect-ratio:1/1;
+    width:57px;
+    border:none;
+    border-radius:50%;
+    color:hsl(216, 12%, 54%);
+    background-color:hsl(213, 19%, 22%);
+    /* display:flex;
+    align-items:center;
+    justify-content:center; */
+}
+.grade:hover{
+    color:white;
+    background-color:hsl(217, 12%, 63%);
+    cursor:pointer;
+    transition:0.1s;
+    font-size:17px
+}
+/* .grade:active{
+    background-color:hsl(25,97%,53%);
+} */
+
+
+#submit {
+    height:48px;
+    BORDER-RADIUS:24PX;;
+    background-color:hsl(25,97%,53%);
+    color:hsl(0, 0%, 100%);
+    font-weight:bold;
+    letter-spacing:0.2em;
+    font-size:15px;
+    bordeR:none;
+    /* outline:none; */
+}
+#submit:hover{
+    cursor:pointer;
+  background-color:hsl(15,97%,53%);
+}
+#submit:active{
+    color:hsl(25,97%,53%);
+    background-color:white;
+    cursor:pointer;
+    /* outline:none; */
+}
+
+#logo {
+  align-self:center;
+/*   bordeR:1px solid purple; */
+  width: 50%
+}
+
+#result {
+  color:hsl(25, 97%, 53%);
+  background-color:  hsl(213, 19%, 25%);
+/*   text-align:center; */
+  line-height:1.5em;
+  padding:0.3em 1.5em;
+  display:inline-block;
+  margin: 0 auto;
+  border-radius:50px;
+}
+
+@media (max-width:375px) {
+    #card{
+        width:340px;
+    }
+
+    p {
+        font-size:14.5px;
+    }
+
+    .grade{
+        width:46px;
+        font-size:0.9em;
+    }
+
+}
+
+/* ### Primary
+- Orange: hsl(25, 97%, 53%)
+- White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%) */
